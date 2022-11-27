@@ -4,143 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "c6db75dcc7c4ddf8",
+        "id": "453f367a4365ed01",
         "type": "tabs",
         "children": [
           {
-            "id": "cdb4bf5c61d873c6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Project Plan.pdf"
-              }
-            }
-          },
-          {
-            "id": "de182590fbb801f2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Project Plan.pdf"
-              }
-            }
-          },
-          {
-            "id": "23d8d4dec115710c",
+            "id": "70aa3e5f18cb349a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Document/Carbon Footprint.md",
+                "file": "Ideas.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "98277110cb7327d5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Project Plan.pdf"
-              }
-            }
-          },
-          {
-            "id": "0d25ba40b5f3efb7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Project Plan.pdf"
-              }
-            }
-          },
-          {
-            "id": "7845a17ae7921d54",
+            "id": "779103bf193d5c0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Document/Aim, Objectives & Questions.md",
+                "file": "Methodology & Steps taken.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "04afefa626f766bd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0fbed19ac1a95c48",
+            "id": "577f9d585c66b37c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Document/Literature Review/Blockchain Innovation.md",
+                "file": "Document/Project Implementation and Execution.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "188ec9601eb693aa",
+            "id": "f4d6cae54a779fcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Document/Literature Review/Emission and Carbon Footprint.md",
+                "file": "Document/Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "48db81da6f241c1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Document/Literature Review/Emission and Carbon Footprint.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d28ae599a54adf48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Document/Research Methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b99ed8f7cd5d381",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Document/Conclusion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "826308d63ea5fe56",
+            "id": "101a4afd30cf9fb9",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -150,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -267,17 +183,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1e33940ca13cd866",
+  "active": "101a4afd30cf9fb9",
   "lastOpenFiles": [
+    "Methodology & Steps taken.md",
+    "Document/Discussion.md",
+    "Document/Analysis.md",
+    "Document/Project Implementation and Execution.md",
+    "Ideas.md",
+    "Project Plan.pdf",
     "Document/Future Scope.md",
     "Document/Conclusion.md",
     "Document/Research Methodology.md",
-    "Literature Review.md",
-    "Document/Literature Review/Carbon Indexing.md",
-    "Document/Literature Review/Emission and Carbon Footprint.md",
-    "Document/Literature Review/Carbon Credit.md",
-    "Document/Literature Review/Blockchain Innovation.md",
-    "Document/Aim, Objectives & Questions.md",
-    "Project Plan.pdf"
+    "Literature Review.md"
   ]
 }
