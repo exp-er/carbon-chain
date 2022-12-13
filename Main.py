@@ -1,4 +1,6 @@
 import streamlit as st 
 
-st.title("Individual Project")
-st.header("Author - Akshat Pande | 2153363")
+st.write("Individual Project")
+st.title("Carbon Chain")
+st.header("Author - Akshat Pande ")
+st.header("Author - Akshat Pande ")
