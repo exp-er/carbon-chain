@@ -1,6 +1,6 @@
 import streamlit as st 
 
 st.write("Individual Project")
-st.title("Carbon Chain")
-st.header("Author - Akshat Pande ")
-st.header("Author - Akshat Pande ")
+st.title("Carbon Blockchain: Footprint, Credit, and Index")
+st.subheader("Author - Akshat Pande ")
+st.subheader("Supervisor - Theodoros Constantinides ")
