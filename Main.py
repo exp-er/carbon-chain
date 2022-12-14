@@ -24,15 +24,10 @@ if selected == "Home":
     simpledata();
 if selected == "Project":
     st.sidebar.title("")
-    st.sidebar.title("Carbon Footprint")
-    y=st.sidebar.radio(' ', ['Cryptocurrency','Consensus Algorithm','Mining Algorithm','Use Case', 'Smart Contract'])
-    st.sidebar.title("Carbon Credit")
-    z=st.sidebar.radio(' ', ['Evaluation', 'Smart Contract'])
-    st.sidebar.title("Carbon Index")
-    p=st.sidebar.radio(' ', ['Carbon Footprint', 'Carbon Credit','Carbon Ratio'])
+    y=st.sidebar.radio(' ', ['Cryptocurrency','Consensus Algorithm','Mining Algorithm','Use Case', 'Smart Contract Footprint', 'Evaluation', 'Smart Contract Credit', 'Carbon Footprint', 'Carbon Credit','Carbon Ratio'])
     if y=="Cryptocurrency":
         btec();
-    if z=="Evaluation":
+    if y=="Evaluation":
         simpledata();
 if selected == "Document":
     st.sidebar.title("Document")
