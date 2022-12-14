@@ -26,7 +26,24 @@ if selected == "Project":
     st.sidebar.title("")
     y=st.sidebar.radio(' ', ['Cryptocurrency','Consensus Algorithm','Mining Algorithm','Use Case', 'Smart Contract Footprint', 'Evaluation', 'Smart Contract Credit', 'Carbon Footprint', 'Carbon Credit','Carbon Ratio'])
     if y=="Cryptocurrency":
-        btec();
+        st.sidebar.title("Cryptocurrency")
+        a=st.sidebar.selectbox('Select Cryptocurrency', ['Bitcoin','Ethereum','Ethereum POW','Ethereum Classic','Ripple','Doge','Cardano','Polygon'])
+        if a=='Bitcoin':
+            btc();
+        if a=='Ethereum':
+            eth();
+        if a=='Ethereum POW':
+            etpow();
+        if a=='Ethereum Classic':
+            etc();
+        if a=='Ripple':
+            xrp();
+        if a=='Doge':
+            dg();
+        if a=='Cardano':
+            crd();
+        if a=='Polygon MATIC':
+            mat();
     if y=="Evaluation":
         simpledata();
 if selected == "Document":
