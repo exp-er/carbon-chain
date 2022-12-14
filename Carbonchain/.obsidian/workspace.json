@@ -4,69 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "453f367a4365ed01",
+        "id": "f8b622d38cd388e6",
         "type": "tabs",
         "children": [
           {
-            "id": "70aa3e5f18cb349a",
+            "id": "abe4fe077d8d02d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "779103bf193d5c0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Methodology & Steps taken.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "577f9d585c66b37c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Document/Project Implementation and Execution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4d6cae54a779fcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Document/Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "101a4afd30cf9fb9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Project Plan.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project Plan.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project Plan.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Project Plan.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,14 +128,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "101a4afd30cf9fb9",
+  "active": "abe4fe077d8d02d8",
   "lastOpenFiles": [
-    "Methodology & Steps taken.md",
-    "Document/Discussion.md",
-    "Document/Analysis.md",
-    "Document/Project Implementation and Execution.md",
     "Ideas.md",
+    "Methodology & Steps taken.md",
+    "Document/Project Implementation and Execution.md",
+    "Document/Analysis.md",
     "Project Plan.pdf",
+    "Document/Discussion.md",
     "Document/Future Scope.md",
     "Document/Conclusion.md",
     "Document/Research Methodology.md",
