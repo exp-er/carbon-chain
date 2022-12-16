@@ -82,7 +82,10 @@ if selected == "Project":
     if y=="Carbon Index":
         st.sidebar.title("Carbon Index")
         a=st.sidebar.selectbox('Select Index', ['Footprint','Credit', 'Ratio'])
-
+    if y=="Smart Contract Footprint":
+        st.write("Smart Contract Footprint")
+    if y=="Smart Contract Credit":
+        st.write("Smart Contract Credit")
 if selected == "Document":
     st.sidebar.title("Document")
     x=st.sidebar.radio(' ', ['Abstract', 'Contextual Background', 'Technical Background', 'Aim, Objectives and Questions', 'Motivation','Research Methodology', 'Project Implementation and Execution', 'Analysis', 'Results', 'Future Scope', 'Recommendation', 'Conclusion', 'References'])
