@@ -1,6 +1,5 @@
 import streamlit as st 
 from hashlib import sha256
-import matplotlib.pyplot as plt
 import pandas as pd
 import time
 import altair as alt
