@@ -3,7 +3,9 @@ from streamlit_option_menu import option_menu
 from Title import *
 from Document import *
 from CC import *
-
+from Mining import *
+from Consensus import *
+from uses import *
 def streamlit_menu(menu):
     if menu == 2:
         # 2. horizontal menu w/o custom style
@@ -24,10 +26,10 @@ if selected == "Home":
     simpledata();
 if selected == "Project":
     st.sidebar.title("")
-    y=st.sidebar.radio(' ', ['Cryptocurrency','Consensus Algorithm','Mining Algorithm','Use Case', 'Smart Contract Footprint', 'Evaluation', 'Smart Contract Credit', 'Carbon Footprint', 'Carbon Credit','Carbon Ratio'])
+    y=st.sidebar.radio(' ', ['Cryptocurrency','Consensus Algorithm','Mining Algorithm','Use Case', 'Smart Contract Footprint', 'Smart Contract Credit', 'Carbon Index'])
     if y=="Cryptocurrency":
         st.sidebar.title("Cryptocurrency")
-        a=st.sidebar.selectbox('Select Cryptocurrency', ['Bitcoin','Ethereum','Ethereum POW','Ethereum Classic','Ripple','Doge','Cardano','Polygon'])
+        a=st.sidebar.radio('Select Cryptocurrency', ['Bitcoin','Ethereum','Ethereum POW','Ethereum Classic','XRP','Doge','Cardano','Polygon'])
         if a=='Bitcoin':
             btc();
         if a=='Ethereum':
@@ -36,16 +38,51 @@ if selected == "Project":
             etpow();
         if a=='Ethereum Classic':
             etc();
-        if a=='Ripple':
+        if a=='XRP':
             xrp();
         if a=='Doge':
             dg();
         if a=='Cardano':
             crd();
-        if a=='Polygon MATIC':
+        if a=='Polygon':
             mat();
-    if y=="Evaluation":
-        simpledata();
+    if y=="Consensus Algorithm":
+        st.sidebar.title("Consensus Algorithm")
+        a=st.sidebar.radio('Select Consensus Algorithm', ['Proof of Work','Proof of Stake','Proof of Elapsed Time','Byzantine Fault Tolerance'])
+        if a=='Proof of Work':
+            pow();
+        if a=='Proof of Stake':
+            pos();
+        if a=='Proof of Elapsed Time':
+            poet();
+        if a=='Byzantine Fault Tolerance':
+            bft();
+    if y=="Use Case":
+        st.sidebar.title("Usecase")
+        a=st.sidebar.radio('Select UseCase', ['Supply-Chain','Decentralized Exchange','NFT Marketplace','Secure Information'])
+        if a=='Supply-Chain':
+            supply();
+        if a=='Decentralized Exchange':
+            dex();
+        if a=='NFT Marketplace':
+            nft();
+        if a=='Secure Information':
+            secure();
+    if y=="Mining Algorithm":
+        st.sidebar.title("Mining Algorithm")
+        a=st.sidebar.radio('Select Algorithm', ['SHA256','Ethash', 'Scrypt', 'Equilhash','CryptoNight'])
+        if a=='SHA256':
+            sha256fun(); 
+        if a=="Scrypt":
+            scrypt();
+        if a=="Equilhash":
+            equil();
+        if a=="CryptoNight":
+            crynight();
+    if y=="Carbon Index":
+        st.sidebar.title("Carbon Index")
+        a=st.sidebar.selectbox('Select Index', ['Footprint','Credit', 'Ratio'])
+
 if selected == "Document":
     st.sidebar.title("Document")
     x=st.sidebar.radio(' ', ['Abstract', 'Contextual Background', 'Technical Background', 'Aim, Objectives and Questions', 'Motivation','Research Methodology', 'Project Implementation and Execution', 'Analysis', 'Results', 'Future Scope', 'Recommendation', 'Conclusion', 'References'])
