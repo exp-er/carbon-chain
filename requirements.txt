@@ -128,6 +128,7 @@ soupsieve @ file:///croot/soupsieve_1666296392845/work
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 streamlit @ file:///tmp/abs_c4af64a6-e8cd-486a-8e7a-4fa8b9d0c903olpgeyyl/croots/recipe/streamlit_1657914742590/work
 streamlit-option-menu==0.3.2
+streamlit_option_menu==0.3.2
 terminado @ file:///tmp/build/80754af9/terminado_1644322583911/work
 tinycss2 @ file:///croot/tinycss2_1668168815555/work
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
