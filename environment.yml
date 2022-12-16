@@ -246,5 +246,6 @@ dependencies:
       - pyscrypt==1.6.2
       - smmap==5.0.0
       - streamlit-option-menu==0.3.2
+      - streamlit_option_menu==0.3.2
       - validators==0.20.0
 prefix: /home/exper/anaconda3/envs/msc
