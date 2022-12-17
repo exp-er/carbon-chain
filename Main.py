@@ -1,11 +1,11 @@
 import streamlit as st 
 from streamlit_option_menu import option_menu
-from Title import *
-from Document import *
-from CC import *
-from Mining import *
-from Consensus import *
-from uses import *
+from Base.Title import *
+from Base.Document import *
+from Base.CC import *
+from Base.Mining import *
+from Base.Consensus import *
+from Base.uses import *
 def streamlit_menu(menu):
     if menu == 2:
         # 2. horizontal menu w/o custom style
@@ -88,7 +88,7 @@ if selected == "Project":
         st.write("Smart Contract Credit")
 if selected == "Document":
     st.sidebar.title("Document")
-    x=st.sidebar.radio(' ', ['Abstract', 'Contextual Background', 'Technical Background', 'Aim, Objectives and Questions', 'Motivation','Research Methodology', 'Project Implementation and Execution', 'Analysis', 'Results', 'Future Scope', 'Recommendation', 'Conclusion', 'References'])
+    x=st.sidebar.radio(' ', ['Abstract', 'Contextual Background', 'Technical Background', 'Aim, Objectives and Questions', 'Motivation','Research Methodology', 'Project Implementation and Execution', 'Analysis', 'Results', 'Recommendation', 'Conclusion', 'References'])
     if x=="Abstract":
         abstract();
     if x=="Contextual Background":
@@ -107,8 +107,6 @@ if selected == "Document":
         analysis();
     if x=="Results":
         result();
-    if x=="Future Scope":
-        future();
     if x=="Recommendation":
         recommend();
     if x=="Conclusion":
