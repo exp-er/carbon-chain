@@ -1,11 +1,12 @@
 import streamlit as st 
 from streamlit_option_menu import option_menu
-from Base.Title import *
-from Base.Document import *
-from Base.CC import *
-from Base.Mining import *
-from Base.Consensus import *
-from Base.uses import *
+from Base.Title import * #Title Page
+from Base.Document import * #Document Page
+from Base.CC import *  #Project Cryptocurrency Page
+from Base.Mining import * #Project Mining Algo Page
+from Base.Consensus import * #Project Consensus Page
+from Base.uses import * #Project Use Case Page
+from Base.CF import *
 def streamlit_menu(menu):
     if menu == 2:
         # 2. horizontal menu w/o custom style
