@@ -6,7 +6,6 @@ from Base.CC import *  #Project Cryptocurrency Page
 from Base.Mining import * #Project Mining Algo Page
 from Base.Consensus import * #Project Consensus Page
 from Base.uses import * #Project Use Case Page
-from Base.CF import *
 def streamlit_menu(menu):
     if menu == 2:
         # 2. horizontal menu w/o custom style
@@ -80,6 +79,8 @@ if selected == "Project":
             equil();
         if a=="CryptoNight":
             crynight();
+        if a=="Ethash":
+            ethash();
     if y=="Carbon Index":
         st.sidebar.title("Carbon Index")
         a=st.sidebar.selectbox('Select Index', ['Footprint','Credit', 'Ratio'])

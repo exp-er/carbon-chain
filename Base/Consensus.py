@@ -46,8 +46,8 @@ def pos():
         st.write("UK Grid : {} kgC02e".format(co2))
         st.write("Offset cost : {} $".format(prices))
     if b=="CryptoCurrency":
-        st.write("Power Consumption per day".format(power))
-        st.write("Total Coins Staked".format(staked))
+        st.write("Power Consumption per day: {}".format(power))
+        st.write("Total Coins Staked: {}".format(staked))
         avgstake=st.number_input('Avg Staked coins', 50)
         noh=staked/avgstake
         co2=(power)*1*0.19338*noh

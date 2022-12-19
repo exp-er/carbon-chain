@@ -91,7 +91,8 @@ def sha256fun():
         st.dataframe(energ)
 
 
-
+def ethash():
+    st.error("Ethash development has been deprecated and was unable to be simulated for now. Will be updated in the future. The carbon footprint for currencies using ethash can be evaluated through other mediums using their hashrate and power consumption etc. Use proof of work in consensus algorithm to calcualte your carbon footprint after entering the details")
 
 def scrypt():
     col1,col2,col3=st.columns(3)
