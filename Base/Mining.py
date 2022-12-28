@@ -3,8 +3,7 @@ from hashlib import sha256
 import pandas as pd
 import time
 import altair as alt
-from pyJoules.energy_meter import measure_energy
-from pyJoules.handler.csv_handler import CSVHandler
+
 import pyscrypt
 import math, random, sys
 from decimal import Decimal as dml
@@ -16,12 +15,6 @@ MAX_NONCE = 100000000000
 def SHA256(text):
     return sha256(text.encode("ascii")).hexdigest()
 
-    
-
-
-csv_handler = CSVHandler('result.csv')
-
-@measure_energy(handler=csv_handler)
 def mine(block_number, transactions, previous_hash, prefix_zeros):
     prefix_str = '0'*prefix_zeros
     for nonce in range(MAX_NONCE):
@@ -59,10 +52,7 @@ def sha256fun():
         total_time = (time.time() - start) 
         timer.append(total_time)
 
-    f = open('result.csv', "w+")
-    f.close()
-    csv_handler.save_data()
-    
+
     df=pd.DataFrame(nonces, columns=['Nonces'])
     df['Time Taken']=timer
     energ=pd.read_csv('result.csv', sep=';')
