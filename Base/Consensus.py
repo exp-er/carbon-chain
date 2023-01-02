@@ -1,4 +1,7 @@
 import streamlit as st
+
+
+
 def pow():
     st.write("Proof of Work")
     st.caption("Proof of Work is mining based consensus algorithm, Hence the algorithm would depend on")
@@ -55,7 +58,6 @@ def pos():
         st.write("UK Grid : {} kgC02e per hour".format(co2))
         st.write("Offset cost : {} $ per hour".format(prices))
         st.write("Offset cost : {} $ per hour per Miner".format(prices/noh))
-
 def bft():
     st.write("Byzantine Fault Tolerance")
     st.caption("Byzantine Fault Tolerance is based on voting mechanism for consensus, Hence the algorithm would depend on")
@@ -82,8 +84,7 @@ def bft():
         prices=(co2/1000)*1.08
         st.write("UK Grid : {} kgC02e per hour".format(co2))
         st.write("Offset cost : {} $ per hour".format(prices))
-        st.write("Offset cost : {} $ per hour per Miner".format(prices/voters))
-    
+        st.write("Offset cost : {} $ per hour per Miner".format(prices/voters)) 
 def poet():
     st.write("Proof of Elapsed Time")
     st.caption("Proof of Elapsesd Time is based on reandom selection mechanism for selecting miner, Hence the algorithm would depend on")

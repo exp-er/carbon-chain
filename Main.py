@@ -7,6 +7,7 @@ from Base.Mining import * #Project Mining Algo Page
 from Base.Consensus import * #Project Consensus Page
 from Base.uses import * #Project Use Case Page
 from Base.equations import *
+from Base.index import *
 def streamlit_menu(menu):
     if menu == 2:
         # 2. horizontal menu w/o custom style
@@ -84,7 +85,16 @@ if selected == "Project":
             ethash();
     if y=="Carbon Index":
         st.sidebar.title("Carbon Index")
+        st.write("All values to simulate index are through the calculations done in Cryptocurrency section and averages or made-up values.")
+        st.caption("Average values: Hashrate = 30 | Staked coin = 50")
+        st.caption("Made-up: Offsetting currently")
         a=st.sidebar.selectbox('Select Index', ['Footprint','Credit', 'Ratio'])
+        if a=="Footprint":
+            foot()
+        if a=="Credit":
+            cred()
+        if a=="Ratio":
+            ratio()
     if y=="Smart Contract Footprint":
         st.write("Smart Contract Footprint")
     if y=="Smart Contract Credit":
